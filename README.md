@@ -13,8 +13,8 @@ The RAL (Register Abstraction Layer) provides a standardized and automated way t
 2.  For that create uvm_reg class, declare uvm_register fields in it.
 3.  create and configure the uvm register fields.
 4.  function void configure(
-        uvm_reg parent,
-        int unsigned size, // Size of the uvm field.  
+        uvm_reg parent,  
+        int unsigned size, // Size of the uvm field.   
         int unsigned lsb_pos, // least significant bit of the register where register field start  
         string access,  // "RW","RO",etc.,  
         bit volatile,  
