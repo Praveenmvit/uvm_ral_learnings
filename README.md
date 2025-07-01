@@ -5,6 +5,6 @@ The RAL (Register Abstraction Layer) provides a standardized and automated way t
   <image src = "https://github.com/user-attachments/assets/97cca516-148c-4496-828d-bc1e6fa391a8">  
 </div> 
 <p align="center">
-    **Register model in design for which we going to construct RAL**
+    Register model in design for which we going to construct RAL
 </p> 
 
