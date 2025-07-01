@@ -8,3 +8,20 @@ The RAL (Register Abstraction Layer) provides a standardized and automated way t
     Register model in design for which we going to construct RAL
 </p> 
 
+## RAL Structure
+1.  Create a uvm register(uvm_reg) containing uvm_register fields.
+2.  For that create uvm_reg class, declare uvm_register fields in it.
+3.  create and configure the uvm register fields.
+4.  function void configure(
+        uvm_reg parent,
+        int unsigned size, // Size of the uvm field.  
+        int unsigned lsb_pos, // least significant bit of the register where register field start  
+        string access,  // "RW","RO",etc.,  
+        bit volatile,  
+        uvm_reg_data_t reset,  
+        bit has_reset,  
+        bit is_rand,  
+        bit individually_accessible  
+    )  
+
+6.  
